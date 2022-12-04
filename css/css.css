@@ -1,0 +1,49 @@
+
+@font-face {
+    src: url('../fonts/ElMessiri-VariableFont_wght.ttf');
+    font-family: "El-Messiri"
+}
+
+.void {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'El-Messiri', sans-serif;
+}
+
+
+.header {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items:center;
+}
+
+.my-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.contacts {
+    margin-left: 5px;
+    list-style-type: none;
+}
+table, td {
+    border: 3px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+
+}
+td {
+    padding: 5px;
+}
+.void {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
